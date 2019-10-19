@@ -1,0 +1,230 @@
+.backgroundborder {
+    padding: 50px 100px 100px 100px;
+  }
+
+body {
+        background: url(../images/herringbone.png);
+  }
+.bodyborder {
+    border: 1pt solid #cccccc;
+    padding: 0px 10px 20px 10px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 160px;
+    background-color: #ffffff;
+
+}
+.contactBox {
+    border: 1pt solid #cccccc;
+    padding: 0px 10px 20px 10px;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    top: 50px;
+    background-color: #ffffff;
+    overflow: hidden;
+    z-index: 1px;
+
+}
+
+.headNav {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    background-color: #777777;
+    border-bottom: 3px;
+    border-bottom-style: outset;
+    border-color: aqua;
+}
+.toplogo {
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    width: 24%;
+    margin-bottom: 0%;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    position: relative;
+    left: 25%;
+    top: 18%;
+    
+}
+#About{
+    float: right;
+    color: #777777;
+    background-color: transparent;
+    padding: 1px;
+    width: 10%;
+    border-right:  1px solid #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+
+}
+
+#Portfolio {
+    float: right;
+    color: #777777 ;
+    background-color: transparent;
+    padding: 1px;
+    width: 10%;
+    border-right: 1px solid #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+    
+}
+#Contact {
+    float: right;
+    color: #777777;
+    background-color: transparent;
+    padding: 1px;
+    width: 10%;
+    border-right: 1px solid #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+
+    
+}
+.me {
+    float: left;
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 32%;
+    color: #4aaaa5;
+    text-align: left;
+    border-color: #cccccc;
+    height: 9px;
+    padding: 2px;
+}
+.body {
+    padding: 5px;
+    overflow: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-color: #dddddd;
+    width: 95%;
+    color: #777777;
+    height: 200px;
+    text-align: left;
+    line-height: 20px;
+    text-indent: 50px;
+
+}
+.image {
+    float: left;
+    padding: 10px;
+    margin-bottom: 0%;
+}
+.footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 110%;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.port {
+    border: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    color: #4aaaa5;
+    border-color: grey; 
+    padding: 10px;
+    width: 700px;
+    position: fixed;
+    left: 345px;
+    top: 140px;
+    background-color: #f2f2f2;
+  }
+
+.img-1 {
+  position: relative;
+  z-index: 1;
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding: 0px;
+}
+.prjtitle {
+  position: absolute;
+  z-index: 2;
+  background-color: teal;
+  color: white;
+  width: 150px;
+  height: 35px;
+  bottom: 2px;
+  left: 0%;
+  text-align: center;
+  padding-top: 2px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', "Times", "Times New Roman", 'serif';
+  }
+  div, p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  .topnav {
+    overflow: hidden;
+  }
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.topnav a:focus {
+    background-color: aqua;
+  }
+.break {
+    border-right-style: solid;
+    border-color: #f2f2f2;
+}
+
+.container {
+    border: 2px;
+    border-style: outset;
+    border-color: grey;
+    padding: 5px;
+    width: 800;
+    position: fixed;
+    left: 320px;
+    top: 140px;
+    background-color: darkgrey;
+  }
+
+  .form{
+      color: #777777;
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  p {
+      text-indent: 20px;
+
+  }
